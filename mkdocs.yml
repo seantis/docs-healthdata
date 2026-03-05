@@ -1,0 +1,129 @@
+site_name: "HealthData.ai Documentation"
+site_url: https://docs.healthdata.ai
+docs_dir: content
+site_description: "Documentation for the HealthData.ai medical research platform by Seantis AG."
+
+theme:
+  name: material
+  language: en
+  logo: img/logo.svg
+  favicon: img/favicon.svg
+  custom_dir: overrides
+  font: false
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+
+plugins:
+  - search:
+      lang:
+        - en
+        - de
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+          site_name: "HealthData.ai Dokumentation"
+          site_description: "Dokumentation der medizinischen Forschungsplattform HealthData.ai von Seantis AG."
+          nav_translations:
+            Home: Startseite
+            Platform: Plattform
+            Clinical Documentation: Klinische Dokumentation
+            Data Collection: Datenerhebung
+            Medical Research: Medizinische Forschung
+            Biobanking: Biobanking
+            Medical Imaging: Medizinische Bildgebung
+            Machine Learning: Maschinelles Lernen
+            Patient Access: Patientenzugang
+            Security: Sicherheit
+            About: Über uns
+            Contact: Kontakt
+          theme:
+            language: de
+            palette:
+              - scheme: default
+                primary: custom
+                accent: custom
+                toggle:
+                  icon: material/brightness-7
+                  name: Dunkelmodus aktivieren
+              - scheme: slate
+                primary: custom
+                accent: custom
+                toggle:
+                  icon: material/brightness-4
+                  name: Hellmodus aktivieren
+  - tags
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      use_pygments: true
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/custom.css
+
+extra_javascript:
+  - javascripts/custom.js
+
+nav:
+  - Home: index.md
+  - Platform:
+      - platform/index.md
+      - Clinical Documentation: platform/clinical-documentation.md
+      - Data Collection: platform/data-collection.md
+      - Medical Research: platform/medical-research.md
+      - Biobanking: platform/biobanking.md
+      - Medical Imaging: platform/medical-imaging.md
+      - Machine Learning: platform/machine-learning.md
+      - Patient Access: platform/patient-access.md
+  - Security:
+      - security/index.md
+  - About:
+      - about/index.md
+      - Contact: about/contact.md

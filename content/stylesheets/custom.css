@@ -1,0 +1,245 @@
+/* ==========================================================================
+   HealthData.ai -- Material Theme Overrides
+   Brand colors from healthdata.ai:
+     Primary blue:      #0366D6
+     Blue light:        #4078C0
+     Accent blue:       #0366FF
+     Dark navy:         #05264C
+     Light gray bg:     #F6F8FA
+     Border gray:       #E6E9EB
+     Text primary:      #323232
+     Text secondary:    #555555
+     Text muted:        #777777
+     Warm off-white:    #FAF9F5
+     Dark footer:       #141413
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Material Design custom-property overrides
+   -------------------------------------------------------------------------- */
+
+:root {
+    --md-primary-fg-color:        #0366D6;
+    --md-primary-fg-color--light: #4078C0;
+    --md-primary-fg-color--dark:  #05264C;
+    --md-accent-fg-color:         #0366FF;
+}
+
+/* --------------------------------------------------------------------------
+   2. Dark mode overrides
+   -------------------------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #0250A3;
+    --md-primary-fg-color--light: #3A6FB5;
+    --md-primary-fg-color--dark:  #031D36;
+    --md-accent-fg-color:         #3D8BFF;
+}
+
+/* --------------------------------------------------------------------------
+   3. Typography refinements
+   -------------------------------------------------------------------------- */
+
+.md-content article h1 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--md-default-fg-color);
+}
+
+.md-content article h2 {
+    font-weight: 500;
+    margin-top: 1.5em;
+}
+
+/* --------------------------------------------------------------------------
+   4. Readability constraints
+   -------------------------------------------------------------------------- */
+
+/* Paragraphs (skip image-only ones so full-width images are not squished) */
+.md-content article > p:not(.img-only) {
+    max-width: 67ex;
+}
+
+/* Admonitions */
+.admonition {
+    max-width: 80ex;
+}
+
+/* --------------------------------------------------------------------------
+   5. Header logo -- larger to show the full wordmark
+   -------------------------------------------------------------------------- */
+
+.md-header__button.md-logo img {
+    height: 2rem;
+    width: auto;
+}
+
+/* --------------------------------------------------------------------------
+   6. Header title -- behave like a link (JS hooks the click)
+   -------------------------------------------------------------------------- */
+
+.md-header__title {
+    cursor: pointer;
+}
+
+.md-header__title:hover {
+    text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------
+   7. Navigation -- ellipsis for long items
+   -------------------------------------------------------------------------- */
+
+.md-nav__list a {
+    white-space: nowrap;
+}
+
+/* --------------------------------------------------------------------------
+   8. Footer -- dark brand background
+   -------------------------------------------------------------------------- */
+
+.md-footer {
+    background-color: #141413;
+}
+
+/* --------------------------------------------------------------------------
+   9. Grid cards (home page)
+   -------------------------------------------------------------------------- */
+
+.md-typeset .grid.cards {
+    --hd-card-bg: var(--md-default-bg-color);
+    --hd-card-border: var(--md-default-fg-color--lightest);
+    --hd-card-bg-hover: var(--md-default-fg-color--lightest);
+    --hd-card-border-hover: var(--md-default-fg-color--lighter);
+    margin-block: 1.5rem;
+}
+
+/* More breathing room between cards */
+.md-typeset .grid.cards,
+.md-typeset .grid.cards > ul,
+.md-typeset .grid.cards > ol {
+    gap: 1.25rem !important;
+    padding: 0.5rem;
+}
+
+/* Progressive enhancement with color-mix() */
+@supports (background-color: color-mix(in srgb, white 50%, black)) {
+    .md-typeset .grid.cards {
+        --hd-card-bg: color-mix(
+            in srgb,
+            var(--md-default-bg-color) 94%,
+            var(--md-default-fg-color) 6%
+        );
+        --hd-card-bg-hover: color-mix(
+            in srgb,
+            var(--md-default-bg-color) 90%,
+            var(--md-default-fg-color) 10%
+        );
+        --hd-card-border: color-mix(
+            in srgb,
+            var(--md-default-fg-color) 14%,
+            transparent
+        );
+        --hd-card-border-hover: color-mix(
+            in srgb,
+            var(--md-default-fg-color) 22%,
+            transparent
+        );
+    }
+}
+
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li {
+    background-color: var(--hd-card-bg);
+    border: 1px solid var(--hd-card-border);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: background-color 120ms ease, border-color 120ms ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > ol > li:hover {
+    background-color: var(--hd-card-bg-hover);
+    border-color: var(--hd-card-border-hover);
+    box-shadow: none !important;
+}
+
+/* Material may apply hover shadow to an anchor wrapper */
+.md-typeset .grid.cards > ul > li > a,
+.md-typeset .grid.cards > ol > li > a,
+.md-typeset .grid.cards > ul > li > a:hover,
+.md-typeset .grid.cards > ol > li > a:hover {
+    box-shadow: none !important;
+}
+
+/* Divider inside a card (the markdown ---) */
+.md-typeset .grid.cards > ul > li hr,
+.md-typeset .grid.cards > ol > li hr {
+    border-bottom-color: var(--hd-card-border);
+    opacity: 1;
+}
+
+/* --------------------------------------------------------------------------
+   10. Announcement bar (header contact links)
+   -------------------------------------------------------------------------- */
+
+.md-banner {
+    background-color: var(--md-primary-fg-color--dark);
+    color: #ffffff;
+    text-align: center;
+    padding: 0.35rem 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+}
+
+.md-banner__inner {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.md-banner__inner > div {
+    width: 100%;
+    text-align: center;
+}
+
+.header-contact-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+}
+
+.header-contact-links > span {
+    opacity: 0.6;
+}
+
+.md-banner .md-typeset .header-icon {
+    width: 0.85rem !important;
+    height: 0.85rem !important;
+    fill: currentColor;
+    opacity: 0.95;
+}
+
+.md-banner a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: opacity 140ms ease;
+}
+
+.md-banner a:hover {
+    opacity: 1;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+

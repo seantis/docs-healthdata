@@ -1,0 +1,66 @@
+---
+title: HealthData.ai Dokumentation
+description: Dokumentation der medizinischen Forschungsplattform HealthData.ai.
+hide:
+  - toc
+---
+
+# HealthData.ai Dokumentation
+
+**HealthData.ai** ist eine webbasierte Plattform für klinische Dokumentation, Datenerhebung und medizinische Forschung.
+
+**[www.healthdata.ai](https://www.healthdata.ai)**
+
+## Plattform
+
+<div class="grid cards" markdown>
+
+-   :material-rocket-launch-outline:{ .lg .middle } **Klinische Dokumentation**
+
+    ---
+
+    SOAP-basierte elektronische Krankenakten.
+
+    [:octicons-arrow-right-24: Mehr erfahren](platform/clinical-documentation.md)
+
+-   :material-database-outline:{ .lg .middle } **Datenerhebung**
+
+    ---
+
+    Sichere multizentrische Datenerhebung.
+
+    [:octicons-arrow-right-24: Mehr erfahren](platform/data-collection.md)
+
+-   :material-flask-outline:{ .lg .middle } **Medizinische Forschung**
+
+    ---
+
+    Anonymisierte klinische Daten für die Forschung.
+
+    [:octicons-arrow-right-24: Mehr erfahren](platform/medical-research.md)
+
+-   :material-shield-lock-outline:{ .lg .middle } **Sicherheit & Compliance**
+
+    ---
+
+    YubiKey, SSL, AES, ISO 27001.
+
+    [:octicons-arrow-right-24: Mehr erfahren](security/index.md)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-   :material-handshake-outline:{ .lg .middle } **Über uns**
+
+    ---
+
+    [:octicons-arrow-right-24: Über uns](about/index.md)
+
+-   :material-email-outline:{ .lg .middle } **Kontakt & Support**
+
+    ---
+
+    [:octicons-arrow-right-24: Kontakt](about/contact.md)
+
+</div>
