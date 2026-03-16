@@ -58,6 +58,8 @@ HealthData.ai ist eine digitale Plattform für die Integration und Analyse von G
 
     ---
 
+    Direkter Kontakt für Fragen und Unterstützung.
+
     [:octicons-arrow-right-24: Kontakt](about/contact.md)
 
 </div>
