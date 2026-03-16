@@ -7,7 +7,7 @@ hide:
 
 # HealthData.ai Dokumentation
 
-**HealthData.ai** ist eine webbasierte Plattform für klinische Dokumentation, Datenerhebung und medizinische Forschung.
+HealthData.ai ist eine digitale Plattform für die Integration und Analyse von Gesundheitsdaten. Sie unterstützt medizinische Fachpersonen bei digitalen Registern, multizentrischen Kohortenstudien und Krankheitsregistern mit strukturierter elektronischer Dokumentation nach der SOAP-Methode. Die Plattform bietet zudem Biobanking, medizinische Bildarchivierung (PACS) sowie maschinelles Lernen für komplexe Datenanalysen – mit Echtzeitzugriff auf anonymisierte Daten für Forschung und Qualitätsmanagement.
 
 **[www.healthdata.ai](https://www.healthdata.ai)**
 
