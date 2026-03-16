@@ -121,9 +121,9 @@ nav:
       - Medical Research: modules/medical-research.md
       - Biobanking: modules/biobanking.md
       - Medical Imaging: modules/medical-imaging.md
-      - Interfaces: modules/interfaces.md
       - Machine Learning: modules/machine-learning.md
       - Patient Access: modules/patient-access.md
   - Security:
       - security/index.md
+  - Interfaces: interfaces.md
   - About: about/contact.md

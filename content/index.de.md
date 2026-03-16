@@ -19,7 +19,7 @@ HealthData.ai ist eine digitale Plattform für die Integration und Analyse von G
 
     SOAP-basierte elektronische Krankenakten.
 
-    [:octicons-arrow-right-24: Mehr erfahren](platform/clinical-documentation.md)
+    [:octicons-arrow-right-24: Mehr erfahren](modules/clinical-documentation.md)
 
 -   :material-database-outline:{ .lg .middle } **Datenerhebung**
 
@@ -27,7 +27,7 @@ HealthData.ai ist eine digitale Plattform für die Integration und Analyse von G
 
     Sichere multizentrische Datenerhebung.
 
-    [:octicons-arrow-right-24: Mehr erfahren](platform/data-collection.md)
+    [:octicons-arrow-right-24: Mehr erfahren](modules/data-collection.md)
 
 -   :material-flask-outline:{ .lg .middle } **Medizinische Forschung**
 
@@ -35,7 +35,7 @@ HealthData.ai ist eine digitale Plattform für die Integration und Analyse von G
 
     Anonymisierte klinische Daten für die Forschung.
 
-    [:octicons-arrow-right-24: Mehr erfahren](platform/medical-research.md)
+    [:octicons-arrow-right-24: Mehr erfahren](modules/medical-research.md)
 
 -   :material-shield-lock-outline:{ .lg .middle } **Informationssicherheit und Datenschutz**
 
@@ -49,11 +49,13 @@ HealthData.ai ist eine digitale Plattform für die Integration und Analyse von G
 
 <div class="grid cards" markdown>
 
--   :material-handshake-outline:{ .lg .middle } **Über uns**
+-   :material-transit-connection-variant:{ .lg .middle } **Schnittstellen**
 
     ---
 
-    [:octicons-arrow-right-24: Über uns](about/contact.md)
+    FHIR, DICOM, REST-API.
+
+    [:octicons-arrow-right-24: Mehr erfahren](interfaces.md)
 
 -   :material-email-outline:{ .lg .middle } **Kontakt & Support**
 
