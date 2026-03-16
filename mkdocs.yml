@@ -63,6 +63,7 @@ plugins:
             Biobanking: Biobanking
             Medical Imaging: Medizinische Bildgebung
             Interfaces: Schnittstellen
+            Data Model: Datenmodell
             Machine Learning: Maschinelles Lernen
             Patient Access: Patientenzugang
             Security: Sicherheit
@@ -128,4 +129,5 @@ nav:
   - Security:
       - security/index.md
   - Interfaces: interfaces.md
+  - Data Model: data-model.md
   - About: about/contact.md
