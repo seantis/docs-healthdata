@@ -8,11 +8,6 @@ Die klinische Dokumentation bildet Behandlungsverläufe strukturiert und nachvol
 
 Ein rollenbasiertes Berechtigungskonzept und revisionssichere Änderungen erhöhen Qualität und Sicherheit. So entsteht eine belastbare Datengrundlage für Versorgung, Qualitätssicherung und Forschung.
 
-## Visuelle Dateneingabe
-
-Die Erfassungsmasken sind für unterschiedliche Eingaben optimiert und reduzieren durch visuelle Führung die Fehlerquote.
-
-
 ## Einwilligung und Datenschutz
 
 Einwilligungen werden versioniert mit Gültigkeitszeitraum, Umfang der Freigabe und eventuellen Widerrufen dokumentiert. Dadurch ist jederzeit nachvollziehbar, auf welcher Grundlage Daten erhoben und genutzt werden dürfen.
@@ -78,3 +73,9 @@ Erinnerungs- und Follow-up-Mechanismen helfen, fehlende Rückmeldungen zu reduzi
 Geplante und durchgeführte Visiten werden inklusive Zeitfenster, Status und Abweichungsgründen dokumentiert. Dadurch werden Protokolltreue und Nachverfolgbarkeit über den gesamten Studienverlauf gestärkt.
 
 Automatische Benachrichtigungen und Aufgabenlisten unterstützen Teams bei der fristgerechten Datenerhebung und beim Schliessen offener Punkte.
+
+## Erstellung von medizinischen Berichten
+
+Arztbriefe, Befundberichte und Verlaufsdokumentationen können aus erfassten Daten strukturiert generiert werden. Vordefinierte Vorlagen stellen sicher, dass alle relevanten Angaben vollständig und in einheitlicher Form enthalten sind.
+
+Freitextfelder ermöglichen individuelle Ergänzungen, ohne die strukturierte Grundlage zu verlieren. Abgeschlossene Berichte werden revisionssicher archiviert und lassen sich bei Bedarf als PDF exportieren oder direkt an nachgelagerte Systeme übermittelt.
