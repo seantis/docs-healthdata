@@ -8,6 +8,8 @@ theme:
   language: en
   logo: img/logo.svg
   favicon: img/favicon.svg
+  icon:
+    alternate: material/earth
   custom_dir: overrides
   font: false
   palette:
