@@ -39,7 +39,7 @@ HealthData.ai ist eine digitale Plattform für die Integration und Analyse von G
 
     [:octicons-arrow-right-24: Mehr erfahren](platform/medical-research.md)
 
--   :material-shield-lock-outline:{ .lg .middle } **Sicherheit & Compliance**
+-   :material-shield-lock-outline:{ .lg .middle } **Informationssicherheit und Datenschutz**
 
     ---
 
@@ -55,7 +55,7 @@ HealthData.ai ist eine digitale Plattform für die Integration und Analyse von G
 
     ---
 
-    [:octicons-arrow-right-24: Über uns](about/index.md)
+    [:octicons-arrow-right-24: Über uns](about/contact.md)
 
 -   :material-email-outline:{ .lg .middle } **Kontakt & Support**
 

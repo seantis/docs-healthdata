@@ -55,7 +55,7 @@ hide:
 
     ---
 
-    [:octicons-arrow-right-24: About](about/index.md)
+    [:octicons-arrow-right-24: About](about/contact.md)
 
 -   :material-email-outline:{ .lg .middle } **Contact & Support**
 
