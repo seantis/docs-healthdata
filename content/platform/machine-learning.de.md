@@ -4,6 +4,6 @@ title: Maschinelles Lernen
 
 # Maschinelles Lernen
 
-<!-- TODO: Inhalt zum ML-Toolset für klinische Daten ergänzen -->
+Das Modul für maschinelles Lernen unterstützt die Entwicklung, Bewertung und Überwachung datengetriebener Modelle im klinischen Kontext. Reproduzierbare Pipelines erleichtern den Weg von der Exploration zur validierten Anwendung.
 
-*Dieser Bereich ist in Bearbeitung.*
+Durch transparente Metriken und dokumentierte Modellversionen bleiben Ergebnisse nachvollziehbar. So können Teams evidenzbasierte Entscheidungen schneller und sicherer treffen.

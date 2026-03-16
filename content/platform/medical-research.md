@@ -4,6 +4,6 @@ title: Medical Research
 
 # Medical Research
 
-<!-- TODO: Add content about anonymized data access for research -->
+The platform supports medical research with curated, quality-assured datasets and clear access workflows. Researchers receive the information required for their specific study questions.
 
-*This section is under development.*
+Privacy-compliant data preparation and transparent governance build trust in both results and processes. This accelerates the path from data to scientific insight.

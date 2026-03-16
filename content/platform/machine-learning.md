@@ -4,6 +4,6 @@ title: Machine Learning
 
 # Machine Learning
 
-<!-- TODO: Add content about ML toolset for clinical data -->
+The machine learning module supports development, evaluation, and monitoring of data-driven models in clinical settings. Reproducible pipelines streamline the path from exploration to validated use.
 
-*This section is under development.*
+Transparent metrics and documented model versions keep results understandable and auditable. This enables teams to make evidence-based decisions faster and with greater confidence.

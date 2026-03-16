@@ -4,6 +4,6 @@ title: Patient Access
 
 # Patient Access
 
-<!-- TODO: Add content about patient apps and remote monitoring -->
+Patient access creates digital touchpoints between care teams and patients. Appointments, questionnaires, and relevant health information can be shared securely and clearly.
 
-*This section is under development.*
+Longitudinal reporting and feedback features support continuous care beyond in-person visits. This improves engagement, adherence, and overall care quality.

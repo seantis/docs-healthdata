@@ -4,6 +4,6 @@ title: Medizinische Forschung
 
 # Medizinische Forschung
 
-<!-- TODO: Inhalt zum anonymisierten Datenzugang für die Forschung ergänzen -->
+Die Plattform unterstützt medizinische Forschung mit kuratierten, qualitätsgesicherten Datensätzen und klaren Zugriffsprozessen. Forschende erhalten genau die Informationen, die für ihre Fragestellung erforderlich sind.
 
-*Dieser Bereich ist in Bearbeitung.*
+Datenschutzkonforme Aufbereitung und nachvollziehbare Governance schaffen Vertrauen in Ergebnisse und Prozesse. Damit wird der Transfer von Daten in wissenschaftliche Erkenntnisse beschleunigt.
