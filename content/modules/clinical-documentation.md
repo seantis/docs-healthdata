@@ -8,6 +8,9 @@ Clinical documentation captures care pathways in a structured and traceable way.
 
 Role-based permissions and audit-ready change tracking improve quality and security. This creates a reliable data foundation for care delivery, quality management, and research.
 
+!!! tip "Related"
+    The structure of forms and fields is defined by the [Data Model](../data-model.md). Export and system connectivity is described under [Interfaces](../interfaces.md).
+
 ## Consent and Data Privacy
 
 Consent records are versioned with validity period, scope of approval, and any revocations. This ensures full traceability of the legal basis on which data was collected and may be used.

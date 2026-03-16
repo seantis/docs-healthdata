@@ -8,6 +8,9 @@ Medical imaging integrates image data and findings into a shared working environ
 
 Structured links between imaging and case data improve analysis and comparability. This supports diagnostics, longitudinal follow-up, and research-oriented evaluation.
 
+!!! tip "Related"
+    DICOM and FHIR connectivity is described in detail under [Interfaces](../interfaces.md). For AI-based image analysis, see [Machine Learning](machine-learning.md).
+
 ## PACS Integration
 
 The platform supports integration with existing **PACS** (Picture Archiving and Communication System) infrastructure via standardised DICOM interfaces. Image data can be retrieved and referenced directly from the PACS and displayed in the context of clinical case data.

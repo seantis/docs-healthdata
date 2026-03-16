@@ -59,3 +59,10 @@ Data can be exported in tabular formats (CSV) as well as structured formats such
 The REST API provides programmatic access to platform data for third-party applications, custom dashboards, and research tools. Authentication is handled via token-based mechanisms with role-based access controls.
 
 API documentation and integration examples are available on request.
+
+---
+
+**See also:**
+[Data Model](data-model.md) &middot;
+[Medical Imaging](modules/medical-imaging.md) &middot;
+[Clinical Documentation](modules/clinical-documentation.md)

@@ -8,6 +8,9 @@ Biobanking features support structured management of samples, aliquots, and stor
 
 The platform links biospecimen information with clinical data under defined privacy and access rules. This helps research teams prepare studies efficiently and maintain full traceability.
 
+!!! tip "Related"
+    Sample metadata follows the [Data Model](../data-model.md). For downstream use of biobank data in studies, see [Medical Research](medical-research.md).
+
 ## Sample Workflow
 
 The module covers the entire lifecycle from sample collection to checkout for research projects. Each step can be adapted to institution-specific requirements.

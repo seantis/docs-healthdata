@@ -8,6 +8,9 @@ Die Plattform unterstützt medizinische Forschung mit kuratierten, qualitätsges
 
 Datenschutzkonforme Aufbereitung und nachvollziehbare Governance schaffen Vertrauen in Ergebnisse und Prozesse. Damit wird der Transfer von Daten in wissenschaftliche Erkenntnisse beschleunigt.
 
+!!! tip "Weiterführend"
+    Forschungsdatensätze werden nach dem [Datenmodell](../data-model.md) strukturiert. Für probenbasierte Forschung, siehe [Biobanking](biobanking.md). Für Modellentwicklung, siehe [Maschinelles Lernen](machine-learning.md).
+
 ## Definition einer Research Data Pipeline
 
 In der heutigen datengetriebenen Forschungslandschaft ist es entscheidend, eine robuste **Research Data Pipeline** aufzubauen, um Studien effizient und zuverlässig durchzuführen.

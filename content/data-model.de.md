@@ -60,3 +60,7 @@ Mappings zwischen internen Codes und externen Systemen können unabhängig von d
 Für Forschungszwecke werden EAV-Daten in eine flache, tabellarische Struktur überführt. Jedes Attribut wird zu einer Spalte, jede Entity zu einer Zeile. Die Transformation ist reproduzierbar und dokumentiert, sodass exportierte Datensätze auf die ursprünglichen Definitionen zurückgeführt werden können.
 
 Vor dem Export wird eine Pseudonymisierung angewendet, bei der direkte Identifikatoren durch forschungsspezifische Pseudonyme ersetzt werden.
+
+---
+
+Siehe auch: [Klinische Dokumentation](modules/clinical-documentation.md) · [Datenerhebung](modules/data-collection.md) · [Schnittstellen](interfaces.md)

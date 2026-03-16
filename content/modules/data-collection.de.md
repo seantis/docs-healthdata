@@ -8,6 +8,9 @@ Die Datenerhebung unterstützt Studien und Register mit einheitlichen, validiert
 
 Für multizentrische Szenarien lassen sich Standorte, Rollen und Freigaben flexibel steuern. Damit bleiben Datenqualität und Vergleichbarkeit auch bei verteilten Teams gewährleistet.
 
+!!! tip "Weiterführend"
+    Felddefinitionen folgen dem [Datenmodell](../data-model.md). Zur Forschungsnutzung erhobener Daten, siehe [Medizinische Forschung](medical-research.md).
+
 ## Datenmanagementplan
 
 Die Dateneingabe erfolgt online durch medizinisches Fachpersonal und Ärztinnen bzw. Ärzte über klar strukturierte Formulare. Dadurch ist eine intuitive Erfassung ohne lange Einarbeitung möglich.

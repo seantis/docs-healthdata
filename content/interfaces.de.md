@@ -59,3 +59,7 @@ Daten können in tabellarischen Formaten (CSV) sowie in strukturierten Formaten 
 Die REST-API ermöglicht den programmatischen Zugriff auf Plattformdaten für Drittsysteme, eigene Dashboards und Forschungstools. Die Authentifizierung erfolgt über Token-basierte Mechanismen mit rollenbasierter Zugriffssteuerung.
 
 API-Dokumentation und Integrationsbeispiele sind auf Anfrage verfügbar.
+
+---
+
+Siehe auch: [Datenmodell](data-model.md) · [Medizinische Bildgebung](modules/medical-imaging.md) · [Klinische Dokumentation](modules/clinical-documentation.md)

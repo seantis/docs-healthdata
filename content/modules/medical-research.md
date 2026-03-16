@@ -8,6 +8,9 @@ The platform supports medical research with curated, quality-assured datasets an
 
 Privacy-compliant data preparation and transparent governance build trust in both results and processes. This accelerates the path from data to scientific insight.
 
+!!! tip "Related"
+    Research datasets are structured according to the [Data Model](../data-model.md). For sample-based research, see [Biobanking](biobanking.md). For model development, see [Machine Learning](machine-learning.md).
+
 ## Defining a Research Data Pipeline
 
 In today's data-driven research landscape, establishing a robust **Research Data Pipeline** is crucial for conducting effective and reliable studies.

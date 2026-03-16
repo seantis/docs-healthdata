@@ -8,6 +8,9 @@ Die medizinische Bildgebung integriert Bilddaten und Befunde in eine gemeinsame 
 
 Die strukturierte Verknüpfung von Bild- und Falldaten verbessert Auswertbarkeit und Vergleichbarkeit. Das unterstützt Diagnostik, Verlaufsbeobachtung und forschungsnahe Analysen.
 
+!!! tip "Weiterführend"
+    DICOM- und FHIR-Anbindung ist detailliert unter [Schnittstellen](../interfaces.md) beschrieben. Für KI-gestützte Bildanalyse, siehe [Maschinelles Lernen](machine-learning.md).
+
 ## PACS-Integration
 
 Die Plattform unterstützt die Anbindung an bestehende **PACS**-Systeme (Picture Archiving and Communication System) über standardisierte DICOM-Schnittstellen. Bilddaten lassen sich damit direkt aus dem PACS abrufen, referenzieren und im Kontext klinischer Falldaten darstellen.

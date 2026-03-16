@@ -8,6 +8,9 @@ Die klinische Dokumentation bildet Behandlungsverläufe strukturiert und nachvol
 
 Ein rollenbasiertes Berechtigungskonzept und revisionssichere Änderungen erhöhen Qualität und Sicherheit. So entsteht eine belastbare Datengrundlage für Versorgung, Qualitätssicherung und Forschung.
 
+!!! tip "Weiterführend"
+    Die Struktur von Formularen und Feldern wird durch das [Datenmodell](../data-model.md) definiert. Export und Systemanbindung sind unter [Schnittstellen](../interfaces.md) beschrieben.
+
 ## Einwilligung und Datenschutz
 
 Einwilligungen werden versioniert mit Gültigkeitszeitraum, Umfang der Freigabe und eventuellen Widerrufen dokumentiert. Dadurch ist jederzeit nachvollziehbar, auf welcher Grundlage Daten erhoben und genutzt werden dürfen.

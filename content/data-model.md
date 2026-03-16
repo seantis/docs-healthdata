@@ -60,3 +60,10 @@ Mappings between internal codes and external systems can be maintained and versi
 For research use, EAV data is transformed into a flat, tabular structure. Each attribute becomes a column, and each entity a row. The transformation is reproducible and documented, ensuring that exported datasets can be traced back to the original definitions.
 
 Pseudonymisation is applied before export, substituting direct identifiers with research-specific pseudonyms.
+
+---
+
+**See also:**
+[Clinical Documentation](modules/clinical-documentation.md) &middot;
+[Data Collection](modules/data-collection.md) &middot;
+[Interfaces](interfaces.md)
