@@ -20,3 +20,4 @@ Supported DICOM capabilities include:
 * Referencing of studies and series via UIDs
 * Structured finding links to image data
 * Export paths for research datasets with pseudonymisation
+

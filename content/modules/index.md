@@ -2,7 +2,7 @@
 title: Platform Overview
 ---
 
-# Platform Overview
+# Modules Overview
 
 HealthData.ai is a web-based platform for clinical data management and medical research.
 

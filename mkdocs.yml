@@ -54,12 +54,13 @@ plugins:
           site_description: "Dokumentation der medizinischen Forschungsplattform HealthData.ai von Seantis AG."
           nav_translations:
             Home: Startseite
-            Platform: Plattform
+            Platform: Module
             Clinical Documentation: Klinische Dokumentation
             Data Collection: Datenerhebung
             Medical Research: Medizinische Forschung
             Biobanking: Biobanking
             Medical Imaging: Medizinische Bildgebung
+            Interfaces: Schnittstellen
             Machine Learning: Maschinelles Lernen
             Patient Access: Patientenzugang
             Security: Sicherheit
@@ -113,15 +114,16 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Platform:
-      - platform/index.md
-      - Clinical Documentation: platform/clinical-documentation.md
-      - Data Collection: platform/data-collection.md
-      - Medical Research: platform/medical-research.md
-      - Biobanking: platform/biobanking.md
-      - Medical Imaging: platform/medical-imaging.md
-      - Machine Learning: platform/machine-learning.md
-      - Patient Access: platform/patient-access.md
+  - Modules:
+      - modules/index.md
+      - Clinical Documentation: modules/clinical-documentation.md
+      - Data Collection: modules/data-collection.md
+      - Medical Research: modules/medical-research.md
+      - Biobanking: modules/biobanking.md
+      - Medical Imaging: modules/medical-imaging.md
+      - Interfaces: modules/interfaces.md
+      - Machine Learning: modules/machine-learning.md
+      - Patient Access: modules/patient-access.md
   - Security:
       - security/index.md
   - About: about/contact.md

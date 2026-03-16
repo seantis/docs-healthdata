@@ -11,8 +11,6 @@ HealthData.ai is a digital platform for integrating and analyzing health data. I
 
 **[www.healthdata.ai](https://www.healthdata.ai)**
 
-## Platform
-
 <div class="grid cards" markdown>
 
 -   :material-rocket-launch-outline:{ .lg .middle } **Clinical Documentation**

@@ -20,3 +20,4 @@ Unterstützte DICOM-Funktionen umfassen unter anderem:
 * Referenzierung von Studien und Serien über UIDs
 * Strukturierte Befundverknüpfung mit Bilddaten
 * Exportpfade für Forschungsdatensätze mit Pseudonymisierung
+
