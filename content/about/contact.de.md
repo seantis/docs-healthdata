@@ -2,7 +2,7 @@
 title: Kontakt & Support
 ---
 
-# Mehr Informationen zur Plattform HealthData.ai
+# Über HealthData.ai
 
 Allgemeine Informationen zur Plattform, zu Referenzen und zum Angebot findest du auf der Webseite:
 
