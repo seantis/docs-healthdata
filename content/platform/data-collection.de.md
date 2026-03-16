@@ -12,6 +12,6 @@ Für multizentrische Szenarien lassen sich Standorte, Rollen und Freigaben flexi
 
 Die Dateneingabe erfolgt online durch medizinisches Fachpersonal und Ärztinnen bzw. Ärzte über klar strukturierte Formulare. Dadurch ist eine intuitive Erfassung ohne lange Einarbeitung möglich.
 
-Bereits bei der Eingabe werden Werte validiert. Ergänzend können Institutionen zusätzliche Qualitätsschritte definieren, etwa das Abschließen einer Konsultation nur durch Rollen mit entsprechender Berechtigung.
+Bereits bei der Eingabe werden Werte validiert. Ergänzend können Institutionen zusätzliche Qualitätsschritte definieren, etwa das Abschliessen einer Konsultation nur durch Rollen mit entsprechender Berechtigung.
 
 Abgeschlossene Konsultationen lassen sich als CSV exportieren. Für Forschungszwecke werden Daten in eine tabellarische Struktur überführt und vor der Bereitstellung pseudonymisiert.
