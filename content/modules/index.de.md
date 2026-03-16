@@ -6,13 +6,73 @@ title: Plattform-Übersicht
 
 HealthData.ai ist eine webbasierte Plattform für klinisches Datenmanagement und medizinische Forschung.
 
-- **[Klinische Dokumentation](clinical-documentation.md)**
-- **[Datenerhebung](data-collection.md)**
-- **[Medizinische Forschung](medical-research.md)**
-- **[Biobanking](biobanking.md)**
-- **[Medizinische Bildgebung](medical-imaging.md)**
-- **[Maschinelles Lernen](machine-learning.md)**
-- **[Patientenzugang](patient-access.md)**
+<div class="grid cards" markdown>
+
+-   :material-clipboard-text-outline:{ .lg .middle } **Klinische Dokumentation**
+
+	---
+
+	Strukturierte SOAP-basierte Dokumentation und Berichte.
+
+	[:octicons-arrow-right-24: Mehr erfahren](clinical-documentation.md)
+
+-   :material-database-outline:{ .lg .middle } **Datenerhebung**
+
+	---
+
+	Einheitliche multizentrische Erfassung und Validierung.
+
+	[:octicons-arrow-right-24: Mehr erfahren](data-collection.md)
+
+-   :material-flask-outline:{ .lg .middle } **Medizinische Forschung**
+
+	---
+
+	Studiengeeignete Datensätze mit geregeltem Zugriff.
+
+	[:octicons-arrow-right-24: Mehr erfahren](medical-research.md)
+
+-   :material-test-tube:{ .lg .middle } **Biobanking**
+
+	---
+
+	Durchgängige Verwaltung des Probenlebenszyklus.
+
+	[:octicons-arrow-right-24: Mehr erfahren](biobanking.md)
+
+-   :material-image-multiple-outline:{ .lg .middle } **Medizinische Bildgebung**
+
+	---
+
+	PACS-Integration und strukturierte Bildgebungsprozesse.
+
+	[:octicons-arrow-right-24: Mehr erfahren](medical-imaging.md)
+
+-   :material-brain:{ .lg .middle } **Maschinelles Lernen**
+
+	---
+
+	Modellentwicklung und reproduzierbare Evaluation.
+
+	[:octicons-arrow-right-24: Mehr erfahren](machine-learning.md)
+
+-   :material-account-heart-outline:{ .lg .middle } **Patientenzugang**
+
+	---
+
+	Digitale Kontaktpunkte für Fragebögen und Follow-up.
+
+	[:octicons-arrow-right-24: Mehr erfahren](patient-access.md)
+
+-   :material-table-large:{ .lg .middle } **Datenmodell**
+
+	---
+
+	Flexibles EAV-basiertes Modell für klinische Daten und Forschung.
+
+	[:octicons-arrow-right-24: Mehr erfahren](../data-model.md)
+
+</div>
 
 ## Internationalisierung und Benutzeroberfläche
 

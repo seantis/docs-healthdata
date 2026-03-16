@@ -6,13 +6,73 @@ title: Platform Overview
 
 HealthData.ai is a web-based platform for clinical data management and medical research.
 
-- **[Clinical Documentation](clinical-documentation.md)**
-- **[Data Collection](data-collection.md)**
-- **[Medical Research](medical-research.md)**
-- **[Biobanking](biobanking.md)**
-- **[Medical Imaging](medical-imaging.md)**
-- **[Machine Learning](machine-learning.md)**
-- **[Patient Access](patient-access.md)**
+<div class="grid cards" markdown>
+
+-   :material-clipboard-text-outline:{ .lg .middle } **Clinical Documentation**
+
+	---
+
+	Structured SOAP-based records and reports.
+
+	[:octicons-arrow-right-24: Learn more](clinical-documentation.md)
+
+-   :material-database-outline:{ .lg .middle } **Data Collection**
+
+	---
+
+	Consistent multicentre data capture and validation.
+
+	[:octicons-arrow-right-24: Learn more](data-collection.md)
+
+-   :material-flask-outline:{ .lg .middle } **Medical Research**
+
+	---
+
+	Study-ready datasets with governed access.
+
+	[:octicons-arrow-right-24: Learn more](medical-research.md)
+
+-   :material-test-tube:{ .lg .middle } **Biobanking**
+
+	---
+
+	End-to-end sample lifecycle management.
+
+	[:octicons-arrow-right-24: Learn more](biobanking.md)
+
+-   :material-image-multiple-outline:{ .lg .middle } **Medical Imaging**
+
+	---
+
+	PACS integration and structured imaging workflows.
+
+	[:octicons-arrow-right-24: Learn more](medical-imaging.md)
+
+-   :material-brain:{ .lg .middle } **Machine Learning**
+
+	---
+
+	Model development and reproducible evaluation.
+
+	[:octicons-arrow-right-24: Learn more](machine-learning.md)
+
+-   :material-account-heart-outline:{ .lg .middle } **Patient Access**
+
+	---
+
+	Digital touchpoints for questionnaires and follow-up.
+
+	[:octicons-arrow-right-24: Learn more](patient-access.md)
+
+-   :material-table-large:{ .lg .middle } **Data Model**
+
+	---
+
+	Flexible EAV-based structures for clinical and research data.
+
+	[:octicons-arrow-right-24: Learn more](../data-model.md)
+
+</div>
 
 ## Internationalization and User Interface
 
