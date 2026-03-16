@@ -45,9 +45,6 @@ HealthData.ai ist eine digitale Plattform für die Integration und Analyse von G
 
     [:octicons-arrow-right-24: Mehr erfahren](security/index.md)
 
-</div>
-
-<div class="grid cards" markdown>
 
 -   :material-transit-connection-variant:{ .lg .middle } **Schnittstellen**
 
