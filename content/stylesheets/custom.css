@@ -14,11 +14,28 @@
      Dark footer:       #141413
    ========================================================================== */
 
+@font-face {
+    font-family: "IBM Plex Sans";
+    src: url("./fonts/IBMPlexSans-VariableFont_wdth,wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    src: url("./fonts/IBMPlexSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 100 700;
+    font-display: swap;
+}
+
 /* --------------------------------------------------------------------------
    1. Material Design custom-property overrides
    -------------------------------------------------------------------------- */
 
 :root {
+    --md-text-font: "IBM Plex Sans", sans-serif;
     --md-primary-fg-color:        #0366D6;
     --md-primary-fg-color--light: #4078C0;
     --md-primary-fg-color--dark:  #05264C;
