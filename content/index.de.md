@@ -33,9 +33,19 @@ Typische Einsatzszenarien umfassen:
 
 Diese Skalierbarkeit stellt sicher, dass die Plattform sowohl für einzelne Kliniken als auch für nationale oder internationale Register geeignet ist.
 
+**Mehr erfahren: [www.healthdata.ai](https://www.healthdata.ai)**
 
+## Architektur der Plattform
 
-**[www.healthdata.ai](https://www.healthdata.ai)**
+![HealthData.ai Architektur](img/Architecture.png)
+
+Ärzte und Patientengeräte greifen auf das System zu und authentifizieren sich sicher über IAM mit Zwei-Faktor-Authentifizierung. 
+
+Nach der Anmeldung interagieren sie mit dem Portal, wo sie Daten eingeben, Berichte einsehen und Arbeitsabläufe verwalten können. Das Portal kommuniziert mit einer zentralen Datenschicht, die klinische Informationen, Bilddaten, Biobankdaten und pseudonymisierte Forschungsdaten speichert.
+
+Diese Datenschicht tauscht über eine REST-API auch Informationen mit externen Systemen wie ERP und Archiven aus. Gleichzeitig werden die gespeicherten Daten durch Deep-Learning-Modelle analysiert, um Erkenntnisse für die klinische Entscheidungsunterstützung und Forschung zu gewinnen. Diese Erkenntnisse fließen zurück ins Portal, wo sie den Nutzern als Berichte, Statistiken und verwertbare Informationen präsentiert werden.
+
+## Überblick Module
 
 <div class="grid cards" markdown>
 
@@ -89,13 +99,3 @@ Diese Skalierbarkeit stellt sicher, dass die Plattform sowohl für einzelne Klin
     [:octicons-arrow-right-24: Kontakt](about/contact.md)
 
 </div>
-
-## Architektur der Plattform
-
-![HealthData.ai Architektur](img/Architecture.png)
-
-Ärzte und Patientengeräte greifen auf das System zu und authentifizieren sich sicher über IAM mit Zwei-Faktor-Authentifizierung. 
-
-Nach der Anmeldung interagieren sie mit dem Portal, wo sie Daten eingeben, Berichte einsehen und Arbeitsabläufe verwalten können. Das Portal kommuniziert mit einer zentralen Datenschicht, die klinische Informationen, Bilddaten, Biobankdaten und pseudonymisierte Forschungsdaten speichert.
-
-Diese Datenschicht tauscht über eine REST-API auch Informationen mit externen Systemen wie ERP und Archiven aus. Gleichzeitig werden die gespeicherten Daten durch Deep-Learning-Modelle analysiert, um Erkenntnisse für die klinische Entscheidungsunterstützung und Forschung zu gewinnen. Diese Erkenntnisse fließen zurück ins Portal, wo sie den Nutzern als Berichte, Statistiken und verwertbare Informationen präsentiert werden.

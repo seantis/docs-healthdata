@@ -33,7 +33,19 @@ Typical deployment scenarios include:
 
 This scalability ensures that the platform is suitable for individual hospitals as well as national or international registries.
 
-**[www.healthdata.ai](https://www.healthdata.ai)**
+**Learn more: [www.healthdata.ai](https://www.healthdata.ai)**
+
+## Platform Architecture
+
+![HealthData.ai Architecture](img/Architecture.png)
+
+Doctors and patient devices access the system and authenticate securely using IAM with two-factor authentication. 
+
+Once logged in, they interact with the portal, where they can enter data, view reports, and manage workflows. The portal communicates with a central data layer that stores clinical information, imaging data, biobank records, and pseudonymized research data. 
+
+This data layer also exchanges information with external systems such as ERP and archives through a REST API. At the same time, the stored data is analyzed by deep learning models to generate insights for clinical decision support and research. These insights are then fed back into the portal, where they are presented to users as reports, statistics, and actionable information.
+
+## Module Overview
 
 <div class="grid cards" markdown>
 
@@ -87,13 +99,3 @@ This scalability ensures that the platform is suitable for individual hospitals 
     [:octicons-arrow-right-24: Contact](about/contact.md)
 
 </div>
-
-## Platform Architecture
-
-![HealthData.ai Architecture](img/Architecture.png)
-
-Doctors and patient devices access the system and authenticate securely using IAM with two-factor authentication. 
-
-Once logged in, they interact with the portal, where they can enter data, view reports, and manage workflows. The portal communicates with a central data layer that stores clinical information, imaging data, biobank records, and pseudonymized research data. 
-
-This data layer also exchanges information with external systems such as ERP and archives through a REST API. At the same time, the stored data is analyzed by deep learning models to generate insights for clinical decision support and research. These insights are then fed back into the portal, where they are presented to users as reports, statistics, and actionable information.
