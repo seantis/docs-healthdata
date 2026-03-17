@@ -88,3 +88,21 @@ Automated notifications and task lists support teams in timely data collection a
 Letters, findings reports, and progress documentation can be generated in structured form from captured data. Predefined templates ensure all relevant information is complete and presented consistently.
 
 Free-text fields allow individual additions without losing the structured foundation. Completed reports are archived in a tamper-evident manner and can be exported as PDF or forwarded directly to downstream systems.
+
+## Workflows and Processes
+
+HealthData.ai supports the mapping of complex clinical and organizational processes through configurable workflows. These are based on events and status changes and can be adapted to project-specific requirements.
+
+Typical capabilities include:
+
+- automatic status transitions
+- notifications triggered by specific events
+- dependencies between process steps
+- traceability of process execution
+
+Example process patterns include:
+
+- prescribing and approval workflows
+- assignment of patients
+- execution and documentation of therapies
+- follow-up and longitudinal documentation

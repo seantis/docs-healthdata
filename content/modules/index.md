@@ -78,6 +78,19 @@ HealthData.ai is a web-based platform for clinical data management and medical r
 
 The user interface can be provided in multiple languages and automatically follows the visitor's browser language settings. The web application is built on open standards (HTTP(S), HTML, CSS, JavaScript) and requires only a modern browser on the client side.
 
+## Dashboards and Analytics
+
+The platform provides various dashboards for data visualization and analysis. These range from patient-specific views to aggregated analytics at institution and network level.
+
+Typical capabilities include:
+
+- patient dashboards with a complete case overview
+- institution and network dashboards for operational and clinical steering
+- real-time analytics based on current data
+- filter and analysis functions for different user groups
+
+These tools help teams make clinical and organizational decisions based on consistent, up-to-date information.
+
 ## Performance, Scalability, and Extensibility
 
 The architecture follows a proven web application model with centralized data storage and scalable web servers. As demand grows, the platform can scale horizontally across multiple servers to improve performance and availability.

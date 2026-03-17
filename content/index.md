@@ -7,7 +7,30 @@ hide:
 
 # HealthData.ai Documentation
 
-HealthData.ai is a digital platform for integrating and analyzing health data. It supports healthcare professionals with digital registries, multicentre cohort studies, and disease registries through structured electronic documentation based on the SOAP method. The platform also provides biobanking, medical image archiving (PACS), and machine learning for complex data analysis, including real-time access to anonymized data for research and quality management.
+HealthData.ai is a modular, web-based platform for the structured capture, management, and analysis of health data. It was designed to connect clinical care and research efficiently while meeting high requirements for privacy, security, and scalability.
+
+The platform enables organizations to digitize complex medical processes, capture data in a standardized way, and analyze it in real time. Thanks to its flexible architecture, HealthData.ai can be used in smaller projects as well as large international networks.
+
+Core capabilities include:
+
+- structured data capture using configurable forms
+- role-based access control for different user groups
+- flexible workflows for mapping medical processes
+- real-time analytics and dashboards
+- standardized interfaces for data exchange
+
+## HealthData.ai in Numbers
+
+HealthData.ai is designed for use in large and complex environments. The platform supports high numbers of users, institutions, and records and can be adapted flexibly to growing requirements.
+
+Typical deployment scenarios include:
+
+- several thousand to millions of patient records
+- international use across multiple institutions
+- large volumes of structured and unstructured data
+- integration of imaging data and biosamples
+
+This scalability ensures that the platform is suitable for individual hospitals as well as national or international registries.
 
 **[www.healthdata.ai](https://www.healthdata.ai)**
 
@@ -64,7 +87,7 @@ HealthData.ai is a digital platform for integrating and analyzing health data. I
 
 </div>
 
-![HealthData.ai Architektur](img/Architecture.png)
+![HealthData.ai Architecture](img/Architecture.png)
 
 Doctors and patient devices access the system and authenticate securely using IAM with two-factor authentication. 
 

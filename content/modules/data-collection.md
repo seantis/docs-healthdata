@@ -18,3 +18,16 @@ Data is entered online by medical professionals and physicians through clearly s
 Values are validated during data entry. In addition, institutions can define further quality controls, for example requiring specific roles and permissions to close a consultation.
 
 Completed consultations can be exported as CSV. For research use, data is transformed into a tabular structure and pseudonymized before release.
+
+## Forms and Data Capture
+
+Data capture in HealthData.ai is based on dynamic and configurable forms. These can be tailored to specific medical questions and support standardized, high-quality data entry.
+
+Key capabilities include:
+
+- freely definable fields and forms
+- validation rules to ensure data quality
+- mandatory fields and plausibility checks
+- versioning of forms and data schemas
+
+This flexibility supports both simple surveys and complex clinical documentation scenarios.

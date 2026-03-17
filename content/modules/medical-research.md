@@ -126,3 +126,16 @@ By systematically defining:
 researchers can ensure that their analyses are methodologically sound and results remain robust.
 
 A well-planned pipeline also facilitates the reproducibility of studies and improves the transparency of the entire research process.
+
+## Data Export and De-Identification
+
+HealthData.ai supports exporting data for research, reporting, or external processing. Particular emphasis is placed on privacy and data security.
+
+Capabilities include:
+
+- export to standardized formats such as CSV or JSON
+- de-identification of sensitive data before release
+- masking and transformation based on the intended use
+- controlled access to export functions through roles and approvals
+
+This ensures that data can be processed securely and in compliance with applicable requirements.

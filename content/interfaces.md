@@ -38,6 +38,22 @@ The following FHIR resource types are supported for exchange and mapping:
 * **Questionnaire / QuestionnaireResponse** — structured forms and PROs
 * **Consent** — patient consent records
 
+### Benefits of FHIR
+
+- standardized communication with other systems
+- straightforward integration into existing IT landscapes
+- support for clinical data models and established terminologies
+
+## REST API
+
+In addition to FHIR, the platform provides a REST-based API. This allows developers to access data and platform functions directly.
+
+Key characteristics:
+
+- secure authentication using token-based mechanisms
+- structured endpoints for data and process functions
+- flexible integration into third-party systems, portals, and analytics tools
+
 ## Imaging Integration
 
 DICOM interfaces enable direct connectivity to PACS systems. Image series can be queried, retrieved, and displayed in context alongside structured clinical data.
@@ -53,6 +69,16 @@ Supported DICOM functions include:
 Platform-specific export formats for studies and registries can be configured, including pseudonymisation and audit trails in line with data protection requirements.
 
 Data can be exported in tabular formats (CSV) as well as structured formats such as FHIR bundles or JSON for downstream analysis pipelines.
+
+## Data Integration
+
+The platform can be integrated into existing system landscapes, for example:
+
+- hospital information systems
+- registry systems
+- research systems
+
+This enables seamless data exchange and reduces manual effort.
 
 ## API Access
 

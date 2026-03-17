@@ -1,3 +1,4 @@
+---
 title: Information Security and Data Protection
 ---
 
@@ -23,11 +24,62 @@ The platform provides comprehensive user management with a granular role and per
 
 Access rights are separated at the institution level, so users can only access data from their own institution. Within an institution, critical actions, such as closing a consultation, are restricted to defined roles.
 
+### Roles and Permission Model
+
+The access model is based on role-based access control (RBAC). Users receive permissions through defined roles, which can be combined flexibly.
+
+Core principles:
+
+- least privilege with only the rights required for a task
+- default deny unless access is explicitly granted
+- clear separation of responsibilities
+
+This model enables secure and traceable control of access rights.
+
+### Institutions and Access Context
+
+HealthData.ai is designed as a multi-tenant platform. Access to data happens in the context of institutions, ensuring clear separation between organizations.
+
+Characteristics:
+
+- data isolation between institutions
+- flexible assignment of users to multiple organizations
+- support for complex network structures
+
+### Patient Access and Approvals
+
+Access to patient data is also controlled at the individual level. This enables fine-grained control over sensitive information.
+
+Capabilities:
+
+- explicit approvals for patient data
+- restriction to specific records
+- combination of role-based and object-level permissions
+
 ## Data Security and Privacy
 
 Communication between browser and server is encrypted using 256-bit TLS. Highly sensitive personal data is encrypted in the database (AES).
 
 As a Swiss company, Seantis AG is subject to the Swiss Federal Act on Data Protection (FADP). Sensitive data is processed exclusively with a Swiss cloud provider in certified Swiss data centers.
+
+## Authentication and IAM
+
+HealthData.ai supports modern authentication mechanisms:
+
+- OAuth 2.0
+- OpenID Connect
+- SAML
+
+Multi-factor authentication is also supported, including:
+
+- SMS-based codes
+- authenticator apps based on TOTP
+- hardware tokens such as YubiKey
+
+## Encryption
+
+- encryption of data in transit using TLS
+- encryption of sensitive data at rest
 
 ## Technical and Organizational Measures
 
@@ -57,3 +109,15 @@ All relevant activities, especially read and write operations, are fully logged.
 - Who: author
 - Where: context (e.g., patient) and affected data field
 - What: old and new value
+
+In addition, user and system logs are available to support audits, forensic analysis, and compliance requirements.
+
+## Penetration Testing and Vulnerability Disclosure
+
+- regular penetration testing
+- defined processes for reporting security vulnerabilities under a vulnerability disclosure policy
+
+## Hosting and Data Location
+
+- hosting in certified data centers in Switzerland
+- clear separation of development, test, and production environments
