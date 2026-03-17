@@ -29,6 +29,7 @@ Typische Einsatzszenarien umfassen:
 - internationale Nutzung über verschiedene Institutionen hinweg
 - grosse Mengen strukturierter und unstrukturierter Daten
 - Integration von Bilddaten und Biosamples
+- tausende von Nutzern über Institutionen und Teams hinweg
 
 Diese Skalierbarkeit stellt sicher, dass die Plattform sowohl für einzelne Kliniken als auch für nationale oder internationale Register geeignet ist.
 
@@ -88,6 +89,8 @@ Diese Skalierbarkeit stellt sicher, dass die Plattform sowohl für einzelne Klin
     [:octicons-arrow-right-24: Kontakt](about/contact.md)
 
 </div>
+
+## Architektur der Plattform
 
 ![HealthData.ai Architektur](img/Architecture.png)
 

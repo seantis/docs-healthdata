@@ -29,6 +29,7 @@ Typical deployment scenarios include:
 - international use across multiple institutions
 - large volumes of structured and unstructured data
 - integration of imaging data and biosamples
+- thousands of users across institutions and teams
 
 This scalability ensures that the platform is suitable for individual hospitals as well as national or international registries.
 
@@ -86,6 +87,8 @@ This scalability ensures that the platform is suitable for individual hospitals 
     [:octicons-arrow-right-24: Contact](about/contact.md)
 
 </div>
+
+## Platform Architecture
 
 ![HealthData.ai Architecture](img/Architecture.png)
 
