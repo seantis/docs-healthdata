@@ -9,6 +9,8 @@ hide:
 
 HealthData.ai ist eine digitale Plattform für die Integration und Analyse von Gesundheitsdaten. Sie unterstützt medizinische Fachpersonen bei digitalen Registern, multizentrischen Kohortenstudien und Krankheitsregistern mit strukturierter elektronischer Dokumentation nach der SOAP-Methode. Die Plattform bietet zudem Biobanking, medizinische Bildarchivierung (PACS) sowie maschinelles Lernen für komplexe Datenanalysen – mit Echtzeitzugriff auf anonymisierte Daten für Forschung und Qualitätsmanagement.
 
+
+
 **[www.healthdata.ai](https://www.healthdata.ai)**
 
 <div class="grid cards" markdown>
@@ -63,3 +65,11 @@ HealthData.ai ist eine digitale Plattform für die Integration und Analyse von G
     [:octicons-arrow-right-24: Kontakt](about/contact.md)
 
 </div>
+
+![HealthData.ai Architektur](img/Architecture.png)
+
+Ärzte und Patientengeräte greifen auf das System zu und authentifizieren sich sicher über IAM mit Zwei-Faktor-Authentifizierung. 
+
+Nach der Anmeldung interagieren sie mit dem Portal, wo sie Daten eingeben, Berichte einsehen und Arbeitsabläufe verwalten können. Das Portal kommuniziert mit einer zentralen Datenschicht, die klinische Informationen, Bilddaten, Biobankdaten und pseudonymisierte Forschungsdaten speichert.
+
+Diese Datenschicht tauscht über eine REST-API auch Informationen mit externen Systemen wie ERP und Archiven aus. Gleichzeitig werden die gespeicherten Daten durch Deep-Learning-Modelle analysiert, um Erkenntnisse für die klinische Entscheidungsunterstützung und Forschung zu gewinnen. Diese Erkenntnisse fließen zurück ins Portal, wo sie den Nutzern als Berichte, Statistiken und verwertbare Informationen präsentiert werden.
