@@ -127,3 +127,16 @@ können Forschende sicherstellen, dass ihre Analysen methodisch solide sind und 
 
 Eine gut geplante Pipeline erleichtert ausserdem die Reproduzierbarkeit von Studien und verbessert die Transparenz des gesamten Forschungsprozesses.
 
+## Datenexport und Deidentifizierung
+
+HealthData.ai ermöglicht den Export von Daten für Forschung, Reporting oder externe Verarbeitung. Dabei wird besonderer Wert auf Datenschutz und Datensicherheit gelegt.
+
+Funktionen:
+
+- Export in standardisierte Formate wie CSV oder JSON
+- Deidentifizierung sensibler Daten vor der Weitergabe
+- Maskierung und Transformation entsprechend dem Verwendungszweck
+- kontrollierter Zugriff auf Exportfunktionen über Rollen und Freigaben
+
+Dies stellt sicher, dass Daten sicher und regelkonform weiterverarbeitet werden können.
+

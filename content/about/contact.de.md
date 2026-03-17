@@ -2,7 +2,7 @@
 title: Kontakt & Support
 ---
 
-# Über HealthData.ai
+# Kontakt & Support
 
 Allgemeine Informationen zur Plattform, zu Referenzen und zum Angebot findest du auf der Webseite:
 
@@ -20,6 +20,16 @@ Pilatusstrasse 3
 [support@seantis.ch](mailto:support@seantis.ch)
 
 # Kontakt & Support
+
+## Supportmodell
+
+HealthData.ai wird durch spezialisierte Teams technisch betreut.
+
+- technischer Support durch spezialisierte Teams
+- definierte Reaktionszeiten
+- klare Verantwortlichkeiten im Betrieb
+
+## Kontaktmöglichkeiten
 
 - **E-Mail:** [info@seantis.ch](mailto:info@seantis.ch)
 - **Telefon:** [+41 41 511 22 50](tel:+41415112250)

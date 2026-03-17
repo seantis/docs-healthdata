@@ -7,7 +7,30 @@ hide:
 
 # HealthData.ai Dokumentation
 
-HealthData.ai ist eine digitale Plattform für die Integration und Analyse von Gesundheitsdaten. Sie unterstützt medizinische Fachpersonen bei digitalen Registern, multizentrischen Kohortenstudien und Krankheitsregistern mit strukturierter elektronischer Dokumentation nach der SOAP-Methode. Die Plattform bietet zudem Biobanking, medizinische Bildarchivierung (PACS) sowie maschinelles Lernen für komplexe Datenanalysen – mit Echtzeitzugriff auf anonymisierte Daten für Forschung und Qualitätsmanagement.
+HealthData.ai ist eine modulare, webbasierte Plattform zur strukturierten Erfassung, Verwaltung und Auswertung von Gesundheitsdaten. Sie wurde entwickelt, um klinische Versorgung und Forschung effizient miteinander zu verbinden und dabei hohe Anforderungen an Datenschutz, Sicherheit und Skalierbarkeit zu erfüllen.
+
+Die Plattform ermöglicht es Organisationen, komplexe medizinische Prozesse digital abzubilden, Daten standardisiert zu erfassen und in Echtzeit auszuwerten. Durch ihre flexible Architektur kann HealthData.ai sowohl in kleineren Projekten als auch in grossen, internationalen Netzwerken eingesetzt werden.
+
+Zu den zentralen Funktionen gehören:
+
+- strukturierte Datenerfassung über konfigurierbare Formulare
+- rollenbasierte Zugriffskontrolle für unterschiedliche Nutzergruppen
+- flexible Workflows zur Abbildung medizinischer Prozesse
+- Echtzeitauswertungen und Dashboards
+- standardisierte Schnittstellen für den Datenaustausch
+
+## HealthData.ai in Zahlen
+
+HealthData.ai ist auf den Einsatz in grossen und komplexen Umgebungen ausgelegt. Die Plattform unterstützt eine hohe Anzahl an Nutzern, Institutionen und Datensätzen und kann flexibel an wachsende Anforderungen angepasst werden.
+
+Typische Einsatzszenarien umfassen:
+
+- mehrere tausend bis Millionen Patientendatensätze
+- internationale Nutzung über verschiedene Institutionen hinweg
+- grosse Mengen strukturierter und unstrukturierter Daten
+- Integration von Bilddaten und Biosamples
+
+Diese Skalierbarkeit stellt sicher, dass die Plattform sowohl für einzelne Kliniken als auch für nationale oder internationale Register geeignet ist.
 
 
 

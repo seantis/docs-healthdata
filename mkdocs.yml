@@ -67,6 +67,7 @@ plugins:
             Machine Learning: Maschinelles Lernen
             Patient Access: Patientenzugang
             Security: Sicherheit
+            Operations: Betrieb
             About: Über uns
             Contact: Kontakt
           theme:
@@ -130,4 +131,7 @@ nav:
       - security/index.md
   - Interfaces: interfaces.md
   - Data Model: data-model.md
-  - About: about/contact.md
+  - Operations: operations.md
+  - About:
+    - about/index.md
+    - Contact: about/contact.md

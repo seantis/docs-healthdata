@@ -18,3 +18,16 @@ Die Dateneingabe erfolgt online durch medizinisches Fachpersonal und Ärztinnen 
 Bereits bei der Eingabe werden Werte validiert. Ergänzend können Institutionen zusätzliche Qualitätsschritte definieren, etwa das Abschliessen einer Konsultation nur durch Rollen mit entsprechender Berechtigung.
 
 Abgeschlossene Konsultationen lassen sich als CSV exportieren. Für Forschungszwecke werden Daten in eine tabellarische Struktur überführt und vor der Bereitstellung pseudonymisiert.
+
+## Formulare und Datenerfassung
+
+Die Datenerfassung in HealthData.ai erfolgt über dynamische und konfigurierbare Formulare. Diese können individuell an medizinische Fragestellungen angepasst werden und unterstützen eine standardisierte sowie qualitativ hochwertige Dateneingabe.
+
+Funktionen im Überblick:
+
+- frei definierbare Felder und Formulare
+- Validierungsregeln zur Sicherstellung der Datenqualität
+- Pflichtfelder und Plausibilitätsprüfungen
+- Versionierung von Formularen und Datenschemata
+
+Durch diese Flexibilität lassen sich sowohl einfache Erhebungen als auch komplexe klinische Dokumentationen abbilden.

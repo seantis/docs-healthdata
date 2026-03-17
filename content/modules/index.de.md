@@ -78,6 +78,19 @@ HealthData.ai ist eine webbasierte Plattform für klinisches Datenmanagement und
 
 Die Benutzeroberfläche kann in mehreren Sprachen bereitgestellt werden und orientiert sich automatisch an den Spracheinstellungen des Browsers. Die Webanwendung basiert auf offenen Standards (HTTP(S), HTML, CSS, JavaScript) und benötigt clientseitig lediglich einen modernen Browser.
 
+## Cockpits und Auswertungen
+
+Die Plattform bietet verschiedene Cockpits zur Visualisierung und Analyse von Daten. Diese reichen von patientenbezogenen Übersichten bis zu aggregierten Auswertungen auf Institutions- und Netzwerkebene.
+
+Zu den typischen Funktionen gehören:
+
+- Patienten-Cockpits mit vollständiger Fallübersicht
+- Institutions- und Netzwerk-Cockpits für operative und fachliche Steuerung
+- Echtzeitauswertungen auf Basis aktueller Daten
+- Filter- und Analysefunktionen für unterschiedliche Nutzergruppen
+
+Diese Werkzeuge unterstützen Teams dabei, klinische und organisatorische Entscheidungen auf Basis konsistenter, aktueller Informationen zu treffen.
+
 ## Performance, Skalierbarkeit und Erweiterbarkeit
 
 Die Architektur folgt einem bewährten Webanwendungsansatz mit zentraler Datenhaltung und skalierbaren Webservern. Bei steigender Last kann die Plattform horizontal auf mehrere Server verteilt werden, um Performance und Ausfallsicherheit zu erhöhen.

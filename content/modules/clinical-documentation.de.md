@@ -82,3 +82,21 @@ Automatische Benachrichtigungen und Aufgabenlisten unterstützen Teams bei der f
 Arztbriefe, Befundberichte und Verlaufsdokumentationen können aus erfassten Daten strukturiert generiert werden. Vordefinierte Vorlagen stellen sicher, dass alle relevanten Angaben vollständig und in einheitlicher Form enthalten sind.
 
 Freitextfelder ermöglichen individuelle Ergänzungen, ohne die strukturierte Grundlage zu verlieren. Abgeschlossene Berichte werden revisionssicher archiviert und lassen sich bei Bedarf als PDF exportieren oder direkt an nachgelagerte Systeme übermittelt.
+
+## Workflows und Prozesse
+
+HealthData.ai ermöglicht die Abbildung komplexer klinischer und organisatorischer Prozesse durch konfigurierbare Workflows. Diese basieren auf Ereignissen und Statusänderungen und können individuell angepasst werden.
+
+Typische Funktionen:
+
+- automatische Statusübergänge
+- Benachrichtigungen bei bestimmten Ereignissen
+- Abhängigkeiten zwischen Prozessschritten
+- Nachvollziehbarkeit von Prozessabläufen
+
+Beispielhafte Prozessmuster:
+
+- Verordnung und Genehmigung
+- Zuweisung von Patientinnen und Patienten
+- Durchführung und Dokumentation von Therapien
+- Follow-up und Verlaufsdokumentation

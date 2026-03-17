@@ -4,6 +4,8 @@ title: About
 
 # About HealthData.ai
 
-<!-- TODO: Add about content, collaboration partners, technology details -->
+HealthData.ai is a modular platform for the structured capture, management, and analysis of health data across clinical care and research.
 
-*This section is under development.*
+The platform is developed and operated by Seantis AG. Support and contact information are available on the [Contact page](contact.md).
+
+Operational topics such as monitoring, backups, releases, training, and documentation are covered on the [Operations](../operations.md) page.
