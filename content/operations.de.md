@@ -6,6 +6,9 @@ title: Betrieb
 
 HealthData.ai wird für den langfristigen Einsatz in klinischen und forschungsnahen Umgebungen betrieben. Der Fokus liegt auf einem stabilen, nachvollziehbaren und skalierbaren Plattformbetrieb.
 
+!!! info "Betriebsmodell"
+	Neben einem Cloud-Betrieb ist auch ein On-Premise-Betrieb beim Kunden möglich.
+
 ## Monitoring und Betrieb
 
 Der Betrieb der Plattform wird kontinuierlich überwacht.

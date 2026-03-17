@@ -6,6 +6,9 @@ title: Operations
 
 HealthData.ai is operated for long-term use in clinical and research-oriented environments. The focus is on stable, traceable, and scalable platform operations.
 
+!!! info "Operating Model"
+	In addition to cloud operation, on-premises deployment at the customer site is also possible.
+
 ## Monitoring and Operations
 
 Platform operations are continuously monitored.
