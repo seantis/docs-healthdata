@@ -64,6 +64,7 @@ plugins:
             Medical Imaging: Medizinische Bildgebung
             Interfaces: Schnittstellen
             Data Model: Datenmodell
+            Glossary: Glossar
             Machine Learning: Maschinelles Lernen
             Patient Access: Patientenzugang
             Security: Sicherheit
@@ -131,6 +132,7 @@ nav:
       - security/index.md
   - Interfaces: interfaces.md
   - Data Model: data-model.md
+  - Glossary: glossary.md
   - Operations: operations.md
   - About:
     - about/index.md
