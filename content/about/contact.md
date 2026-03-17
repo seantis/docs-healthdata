@@ -2,11 +2,14 @@
 title: Contact & Support
 ---
 
+!!! warning "Discovered a vulnerability in our systems?"
+	Find our security contacts, vulnerability disclosure policy (VDP) and safe harbor agreement here: [https://www.seantis.ch/security/](https://www.seantis.ch/security/)
+
 # Contact & Support
 
 General information about the platform, references, and services is available on the website:
 
-[healthdata.ai](https://www.healthdata.ai)
+[www.healthdata.ai](https://www.healthdata.ai)
 
 # Operations and Development
 

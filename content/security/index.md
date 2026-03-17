@@ -2,6 +2,9 @@
 title: Information Security and Data Protection
 ---
 
+!!! warning "Discovered a vulnerability in our systems?"
+	Find our security contacts, vulnerability disclosure policy (VDP) and safe harbor agreement here: [https://www.seantis.ch/security/](https://www.seantis.ch/security/)
+
 # Information Security and Data Protection
 
 Seantis AG places the highest priority on data protection and information security. Sensitive health data is transmitted and processed through the platform. Data is protected with appropriate technical and organizational measures based on its protection level.

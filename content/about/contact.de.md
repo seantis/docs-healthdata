@@ -2,11 +2,14 @@
 title: Kontakt & Support
 ---
 
+!!! warning "Sicherheitslücke in unseren Systemen entdeckt?"
+    Hier findest du unsere Security-Kontakte, die Vulnerability Disclosure Policy (VDP) und die Safe-Harbor-Vereinbarung: [https://www.seantis.ch/security/](https://www.seantis.ch/security/)
+
 # Kontakt & Support
 
 Allgemeine Informationen zur Plattform, zu Referenzen und zum Angebot findest du auf der Webseite:
 
-[healthdata.ai](https://www.healthdata.ai)
+[www.healthdata.ai](https://www.healthdata.ai)
 
 # Betrieb und Entwicklung
 

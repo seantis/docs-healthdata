@@ -2,6 +2,9 @@
 title: Informationssicherheit und Datenschutz
 ---
 
+!!! warning "Sicherheitslücke in unseren Systemen entdeckt?"
+    Hier findest du unsere Security-Kontakte, die Vulnerability Disclosure Policy (VDP) und die Safe-Harbor-Vereinbarung: [https://www.seantis.ch/security/](https://www.seantis.ch/security/)
+
 # Informationssicherheit und Datenschutz
 
 Seantis AG legt grössten Wert auf Datenschutz und Informationssicherheit. Über die Plattform werden schützenswerte Gesundheitsdaten übertragen und verarbeitet. Entsprechend der jeweiligen Schutzstufe werden Daten mit angemessenen technischen und organisatorischen Massnahmen geschützt.
